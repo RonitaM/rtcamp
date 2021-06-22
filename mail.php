@@ -44,7 +44,7 @@ $message="Click here to have a funny day ahead: <a href='https://c.xkcd.com/rand
 <p><br><br>
 For the attachment, you can run the attached html script- funny.html in browser. 
 
-<br><br><br> Click here to <a href='unsub.php?$email'> Unsubscribe </a>";
+<br><br><br> Click here to <a href='https://rtcamp99.herokuapp.com/unsub.php?$email'> Unsubscribe </a>";
 
 $url = 'https://c.xkcd.com/random/comic/';
 $binary_content = file_get_contents($url);
