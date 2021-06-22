@@ -6,12 +6,12 @@ require 'PHPMailer-master/src/PHPMailer.php';
 require 'PHPMailer-master/src/SMTP.php';
 session_start();
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname="rtcamp";
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname="rtcamp";
 
-$conn = new mysqli($servername,$username,$password,$dbname);
+$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
