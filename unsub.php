@@ -12,7 +12,7 @@ if (!$conn) {
 }
 
 $sql="delete from users where email='$email'";
-echo $sql;
+//echo $sql;
 if($conn->query($sql)===TRUE)
 {
 	echo "Unsubscribed Successfully.";
