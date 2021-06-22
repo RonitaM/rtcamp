@@ -32,7 +32,7 @@ $token=$_SESSION['token'];
 //$reciever=$_SESSION['reciever'];
 $subject="Verification Link";
 $message="<p>Thank you for subscribing up on our site. Please click on the link below to verify your account:.</p>
-        <a href='http://localhost/rtcamp/verify.php?$token'> Verify Email!";
+        <a href='https://rtcamp99.herokuapp.com/verify.php?$token'> Verify Email!";
 $mail->AddAddress("$email");
 $mail->SetFrom("rtcamp.test99@gmail.com", "Testing");
 $mail->AddReplyTo("rtcamp.test99@gmail.com", "Testing");
