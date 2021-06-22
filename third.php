@@ -17,7 +17,7 @@ if (!$conn) {
 }
 
 $mail = new PHPMailer();
-$mail->IsSMTP();
+//$mail->IsSMTP();
 $mail->Mailer = "smtp";
 $mail->SMTPDebug  = 1;  
 $mail->SMTPAuth   = TRUE;
