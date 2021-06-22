@@ -11,7 +11,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql="delete from users where email=$email";
+$sql="delete from users where email='$email'";
 echo $sql;
 if($conn->query($sql)===TRUE)
 {
