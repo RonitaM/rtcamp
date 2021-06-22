@@ -3,11 +3,11 @@ session_start();
 $email = "";
 $errors = [];
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname="rtcamp";
-$conn = new mysqli($servername,$username,$password,$dbname);
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname="rtcamp";
+$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
 
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
