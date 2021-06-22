@@ -17,14 +17,14 @@ if (!$conn) {
 }
 
 $mail = new PHPMailer();
-//$mail->IsSMTP();
+$mail->IsSMTP();
 $mail->Mailer = "smtp";
 $mail->SMTPDebug  = 1;  
 $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "tls";
 $mail->Port       = 587;
 $mail->Host       = "smtp.gmail.com";
-$mail->Username   = "rtcamp.test123@gmail.com";
+$mail->Username   = "rtcamp.test99@gmail.com";
 $mail->Password   = "Test@1999";
 $mail->IsHTML(true);
 $email=$_SESSION['email'];
