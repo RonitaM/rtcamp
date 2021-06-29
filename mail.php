@@ -62,8 +62,8 @@ $url='https://c.xkcd.com/random/comic/';
 $mail->addStringAttachment(file_get_contents($url), 'Funny.html');
 
 $mail->AddAddress("$email");
-$mail->SetFrom("rtcamp.test99@gmail.com", "Testing");
-$mail->AddReplyTo("rtcamp.test99@gmail.com", "Testing");
+$mail->SetFrom("rtcamp.test123@gmail.com", "Testing");
+$mail->AddReplyTo("rtcamp.test123@gmail.com", "Testing");
 //$mail->AddCC("cc-recipient-email@domain", "cc-recipient-name");
 
 $mail->Subject = $subject;
