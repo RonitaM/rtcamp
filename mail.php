@@ -62,7 +62,7 @@ Click me to have a funny day ahead- generate a random comic: <a href='https://c.
  <img src='$img'>
 
 
-<br><br><br> Click here to <a href='unsub.php?$email'> Unsubscribe </a>";
+<br><br><br> Click here to <a href='https://rtcamp99.herokuapp.com/unsub.php?$email'> Unsubscribe </a>";
 
 
 //$message=$mess1+$mess2;
