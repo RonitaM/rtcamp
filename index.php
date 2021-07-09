@@ -32,7 +32,7 @@ $sql="select email from users where verified=1";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-	exec("php mail.php");
+	exec("php https://rtcamp99.herokuapp.com/mail.php");
 
 }
 ?>
