@@ -32,13 +32,13 @@ $sql="select email from users where verified=1";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-	exec("php https://rtcamp99.herokuapp.com/mail.php");
+	exec("php mail.php");
 
 }
 ?>
 
 <script>
-setTimeout(function () { window.location.reload(); }, 1000*60*5);
+setTimeout(function () { window.location.reload(); }, 1000*60);
 // just show current time stamp to see time of last refresh.
 //document.write(new Date());
 </script>	
