@@ -38,7 +38,7 @@ if ($result->num_rows > 0) {
 ?>
 
 <script>
-setTimeout(function () { window.location.reload(); }, 1000*60);
+setTimeout(function () { window.location.reload(); }, 5*1000*60);
 // just show current time stamp to see time of last refresh.
 //document.write(new Date());
 </script>	
