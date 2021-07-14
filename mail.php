@@ -11,7 +11,9 @@ session_start();
 //$username = "root";
 //$password = "";
 //$dbname="rtcamp";
-$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
+//$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
+
+$conn = new mysqli('sql6.freemysqlhosting.net', 'sql6425202', 'eq8bBwgTvD', 'sql6425202');
 
 //$conn = new mysqli('localhost', 'root', '', 'rtcamp');
 
