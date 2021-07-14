@@ -1,8 +1,11 @@
 <?php
 session_start();
 
-$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
+//$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
 //$conn = new mysqli('localhost', 'root', '', 'rtcamp');
+
+$conn = new mysqli('sql6.freemysqlhosting.net', 'sql6425202', 'eq8bBwgTvD', 'sql6425202');
+
 $token=$_SERVER['QUERY_STRING'];
 if (isset($token)) {
     //$token = $_GET['token'];
