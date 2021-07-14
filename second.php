@@ -9,7 +9,9 @@ $errors = [];
 //$dbname="rtcamp";
 //$conn = new mysqli($servername,$username,$password,$dbname);
 
-$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
+//$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
+
+$conn = new mysqli('sql6.freemysqlhosting.net', 'sql6425202', 'eq8bBwgTvD', 'sql6425202');
 
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
