@@ -21,8 +21,8 @@ session_start();
 
 
 <?php
-
-$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
+$conn = new mysqli('sql6.freemysqlhosting.net', 'sql6425202', 'eq8bBwgTvD', 'sql6425202');
+//$conn = new mysqli('remotemysql.com', 'qFyAF6z2HL', 'ZhD8X1loVr', 'qFyAF6z2HL');
 //$conn = new mysqli('localhost', 'root', '', 'rtcamp');
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
